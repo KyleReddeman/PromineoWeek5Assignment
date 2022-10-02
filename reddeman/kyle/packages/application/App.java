@@ -1,3 +1,7 @@
+package reddeman.kyle.packages.application;
+
+import reddeman.kyle.packages.logging.*;
+
 public class App {
     public static void main(String[] args) {
         Logger asteriskLogger = new AsteriskLogger();

@@ -1,3 +1,5 @@
+package reddeman.kyle.packages.logging;
+
 public class AsteriskLogger implements Logger {
 
     @Override

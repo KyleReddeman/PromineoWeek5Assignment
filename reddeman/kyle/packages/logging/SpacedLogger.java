@@ -1,3 +1,5 @@
+package reddeman.kyle.packages.logging;
+
 public class SpacedLogger implements Logger {
 
     @Override
