@@ -6,15 +6,15 @@ public class App {
     public static void main(String[] args) {
         Logger logger = new AsteriskLogger();
 
-        logger.log("Test");
+        logger.log("Asterisk");
         System.out.println();
-        logger.error("Test");
+        logger.error("Asterisk");
         System.out.println();
 
         logger = new SpacedLogger();
         
-        logger.log("Test");
+        logger.log("Spaced");
         System.out.println();
-        logger.error("Test");
+        logger.error("Spaced");
     }
 }

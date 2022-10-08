@@ -20,8 +20,8 @@ public class SpacedLoggerTest {
  
     @Test public void testLog() {
         String expectedString = "T e s t\n";
-        logger.log("Test");
-        Assert.assertEquals(expectedString, outputStreamCaptor.toString());
+        logger.log("Test");        Assert.assertEquals(expectedString, outputStreamCaptor.toString());
+
     }
 
     @Test 
