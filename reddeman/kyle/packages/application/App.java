@@ -4,14 +4,17 @@ import reddeman.kyle.packages.logging.*;
 
 public class App {
     public static void main(String[] args) {
-        Logger asteriskLogger = new AsteriskLogger();
-        Logger spacedLogger = new SpacedLogger();
-        asteriskLogger.log("Asterisk");
+        Logger logger = new AsteriskLogger();
+
+        logger.log("Test");
         System.out.println();
-        asteriskLogger.error("Asterisk");
+        logger.error("Test");
         System.out.println();
-        spacedLogger.log("Spaced");
+
+        logger = new SpacedLogger();
+        
+        logger.log("Test");
         System.out.println();
-        spacedLogger.error("Spaced");
+        logger.error("Test");
     }
 }
